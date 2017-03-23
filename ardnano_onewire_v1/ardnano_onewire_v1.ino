@@ -1,15 +1,18 @@
 #include <OneWire.h>
- 
-OneWire ibutton (12); // iButton connected on PIN 42.
+
+// This is for testing iButton functions
+
+OneWire ibutton (12); // iButton connected on PIN 12
 byte addr[8];
 String keyStatus="";
-int blue[8] = {1,206,207,231,1,0,0,152};
-int master[8] = {1,208,151,1,1,0,0,59};
+int blue[8] = {1,x,x,x,1,0,0,x};
+int master[8] = {1,x,x,x,1,0,0,x};
  
 void setup(){
   Serial.begin(115200);
   Serial.println("Hello Pin12"); // print new line
-  pinMode(10, OUTPUT);
+  pinMode(10, OUTPUT);  // LED for Signal
+ pinMode(9, OUTPUT);  // Relais, for future request
 }
  
 void loop(){
