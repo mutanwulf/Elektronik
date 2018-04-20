@@ -4,6 +4,9 @@ Durch dieses Projekt steuere ich derzeit AquariumLampen über Webaufruf mittels 
 
 Diese LED-Bars sind an den Pins 12,13,14 über MosFETs angeschlossen.
 
+Aktuell benuze ich dafür dieses Board:
+[https://github.com/patrickjahns/esp_rgbww_fhemmodule](https://github.com/patrickjahns/esp_rgbww_fhemmodule "esp_rgbww_fhemmodule")
+
 Editiere <WiFiCredentials.h> für das eigene WLAN.
 
 Über einen Webaufruf kann man steuern was man machen will.
